@@ -19,8 +19,7 @@
     position: absolute;
     margin-top: 390px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-55%, -50%);
 }
 
 .s2-main-header {
@@ -32,11 +31,26 @@
 
 .search-bar {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 30px;
+    margin-left: 50%;
+    transform: translate(-55%, -50%);
     margin-top: 600px;
-    
+    font-size: 20px;
+}
+.search-border {
+    width: 600px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.s3-troll {
+    display: flex;  
+}
+.s3-tdata {
+    display: flex;
+    justify-content: space-between;
+    border: black solid 2px;
+    width: 28%;
+    padding: 20px;
+    background-color: rgb(221, 134, 148); 
 }
 
