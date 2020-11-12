@@ -91,6 +91,7 @@
 }
 .section4 {
     padding: 30px;
+    
 }
 .s4 {
     display: flex;
@@ -107,48 +108,50 @@
     height: 50px;
 }
 
-.s4-tright {
-    justify-content: right;
-    
+.s4-proRow1 {
+    border: black solid 2px;
+    background-color: rgb(224, 219, 211);
 }
 
-.s4-proCol {
-    border: black solid 2px;
-    width: 400px;
-    height: 500px;
-    
-}
-.s4-proImg {
-    margin: auto;
-    width: 330px;
-    margin-top: -80px;
-    margin-left: 15px;
-}
-.btnLoad {
-    margin-top: 220px;
-    background-color: green;
-    border-radius: 3px;
-    height: 40px;
-}
-.btncart {
-    margin-left: 250px;
-    margin-bottom: 30px;
-    border: black solid 2px;
-    box-shadow: 4px 3px 0px;
-}
 .s4-discount {
     border: transparent;
     background-color: tomato;
-    margin-left: 290px;
+    margin-left: 500px;
     text-align: center;
     margin-right: 10px;
     font-size: 30px;
     border-radius: 6px;
 }
+.s4-tRow1 {
+    margin: 10px;
+}
+.s4-proCol1 {
+    width: 600px;
+}
+.s4-proCol2 {
+    width: 600px;
+}
+.s4-tright1 {
+    border: black solid 2px;
+}
+
+.s4-proImg {
+    width: 300px;
+    padding-left: 140px;
+}
+.s4-proImgsmall {
+    width: 130px;
+    padding-left: 50px;
+}
+.btncart {
+    margin-left: 50px;
+    margin-top: 200px;
+    box-shadow: 4px 3px 0px;
+    
+}
 .s4-para {
-    margin-top: -30px;
-    line-height: 5px;
-    margin-left: 20px;
+    margin-top: -0px;
+    padding-left: 50px;
 }
 .price-1 {
     color: red;
@@ -163,4 +166,49 @@
       font-size: 20px;
       line-height: 10px;
   }
+.s4-proTagbtn {
+      margin-left: 30px;
+      padding-top: 20px;
+  }
+.s4-proTagbtn1 {
+      height: 40px;
+      background-color: gainsboro;
+      margin: 20px;
+      border-radius: 5px;
+  }
+.s4-tright2 {
+      border: black solid 2px;
+      
+  }
+.s4-proRow3 {
+    border: black solid 2px;
+}
+.s4-proCol3 {
+    border: black solid 2px;
+    padding-left: 20px;
+}
+.review {
+    border: none;
+    height: 50px;
+    width: 100%;
+}
+.sendbtn {
+    background-color: green;
+    box-shadow: 4px 3px 0px;
+    height: 30px;
+    width: 100px;
+}
+.discardbtn {
+    box-shadow: 4px 3px 0px;
+    height: 30px;
+    margin-left: 20px;
+    width: 100px;
+}
+.finalbtn {
+    margin-left: 800px;
+    padding: 20px;
+}
+
+
+
 
