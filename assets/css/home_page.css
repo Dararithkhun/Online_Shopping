@@ -23,7 +23,7 @@
 }
 
 .s2-main-header {
-    font-size: 3em;
+    font-size: 4em;
 }
 .s2-paragraph {
     font-size: 1.1em;
@@ -90,7 +90,7 @@
     margin-top: 85px;
 }
 .section4 {
-    /* padding: 30px; */
+    padding: 30px;
 }
 .s4 {
     display: flex;
@@ -98,7 +98,6 @@
 .s4-tleft {
     width: 20%;
 }
-
 .s4-proCatagory {
     display: flex;
     font-size: 20px;
@@ -107,17 +106,61 @@
     width: 50px;
     height: 50px;
 }
-.s4-proRow {
-    padding: 40%;
+
+.s4-tright {
+    justify-content: right;
+    
 }
+
 .s4-proCol {
     border: black solid 2px;
-    width: 500px;
+    width: 400px;
+    height: 500px;
+    
 }
-
-
-
 .s4-proImg {
-    width: 50px;
+    margin: auto;
+    width: 330px;
+    margin-top: -80px;
+    margin-left: 15px;
 }
+.btnLoad {
+    margin-top: 220px;
+    background-color: green;
+    border-radius: 3px;
+    height: 40px;
+}
+.btncart {
+    margin-left: 250px;
+    margin-bottom: 30px;
+    border: black solid 2px;
+    box-shadow: 4px 3px 0px;
+}
+.s4-discount {
+    border: transparent;
+    background-color: tomato;
+    margin-left: 290px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 30px;
+    border-radius: 6px;
+}
+.s4-para {
+    margin-top: -30px;
+    line-height: 5px;
+    margin-left: 20px;
+}
+.price-1 {
+    color: red;
+    text-decoration: line-through;
+  }
+  .price-2 {
+    color: green;
+  }
+  .price {
+      margin-top: 40px;
+      margin-left: 40px;
+      font-size: 20px;
+      line-height: 10px;
+  }
 
